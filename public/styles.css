@@ -11,20 +11,25 @@
 	right: 0;
 	background-color: #3b5998;
 	color: #fff;
-	height: 140px;
+	height: 60px;
 	font-family: Lucida, Tahoma;
-	clear: left;
-}
-
-.loginform{
-	color: #fff;
-	font-family: Lucida, Tahoma;
-}
-
-.clearfix {
 	overflow: auto;
 }
 
+#loginform{
+	color: #000;
+	font-family: Lucida, Tahoma;
+	float:right;
+	margin: 0 auto;
+	padding: 0;
+	overflow: auto;
+}
+
+/*
+.clearfix {
+	overflow: auto;
+}
+*/
 h2 {
 	font-weight: bolder;
 	color: #fff;
@@ -40,7 +45,7 @@ h1 {
 p {
 	color: #000;
 	font-family: Tahoma, Lucida;
-	font-size: 10px;
+	font-size: 14px;
 }
 
 li {
@@ -50,28 +55,33 @@ li {
 
 .navlist li {
 	list-style: none;
-
 }
 
 .navlist > li:first-child {
 	float:left;
-
 }
 
-.navlist > li:last-child li {
-	float:left;
-	padding-left: 10px;
+.navlist > li:nth-child(2) li {
+	float:right;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .navlist a {
 	color: #ffffff;
+	float:left;
 	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: 25px 5px;
 }
+
+
 
 /* CONTAINER */
 
 #container {
-	margin-top: 140px auto;
+	margin-top: 60px auto;
 	width: 100%;
 	background: -webkit-linear-gradient(top, #ffffff, #D3D8E8);
 }
@@ -94,11 +104,11 @@ li {
 #sidebar {
 	width: 40%;
 	height: 500px;
-	background-color: #444;
+	background-color: #F2EDED;
 	font-family: Lucida, Tahoma;
 	display: block;
 	padding: 1rem;
 	line-height: 200%;
-	color: #fff;
+	color: #000;
 	float:right;
 }
