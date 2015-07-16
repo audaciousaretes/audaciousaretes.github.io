@@ -1,34 +1,16 @@
-.nav {
-	background-color: #2e2efe;
-	margin: 0;
-	padding: 0;
-}
+
 .clearfix {
 	overflow: normal;
 }
+.nav {
+	background-color: #2e2efe;
+	width: 1000px;
+}
 .nav h1 {
 	margin: 0;
-	padding: 0;
+	padding: 0 100 0 25;
 	font-weight: normal;
 	font-size: 24pt;
 	float: left;
 	font-style: normal;
 	font-weight: 500;
-}
-li {
-	list-style: none;
-}
-.nav ul {
-	margin: 0;
-	padding 0;
-}
-.nav a {
-	display: block;
-	padding: 1rem .5rem;
-	font-weight: normal
-	font-size: 2rem;
-	color: #81daf5;
-	text-decoration: none;
-	float: right;
-	
-}
