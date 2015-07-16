@@ -3,6 +3,7 @@
   padding:0;
   background-color: #3a5795;
 
+
 }
 .clearfix{
   overflow: auto;
@@ -63,3 +64,16 @@ li {
   width: 260px;
 }
 
+#info{
+  float:right;
+  margin-top: 15%;
+  margin-right: 6%;
+  border: 1px solid #bbbbbb;
+}
+
+.header-cont {
+  width:100%;
+  length:100%;
+  position: fixed;
+  top:0px;
+}
