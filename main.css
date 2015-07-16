@@ -2,12 +2,10 @@
 .clearfix {
 	overflow: normal;
 }
-.nav body{
-	background-color: #0080ff;
-	width: 2000px;
-	height: 100px;
+body {
+	color: #2e64fe;
 }
-.nav h1 {
+h1 {
 	margin: 0;
 	padding: 0 100 0 25;
 	font-weight: normal;
@@ -20,13 +18,13 @@
 	margin: 0;
 	padding: 0 100 0 25;
 	font-weight: normal;
-	font-size: 24pt;
+	font-size: 12pt;
 	float: left;
 	font-family: 'Optima', 'Avant Garde';
 	font-style: #fffff;
 }
 .nav form {
-	background-color: #a9e2f3;
-	width: 2000px
-	height: 300px;
+	float: right;
+;
+
 }
