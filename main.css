@@ -1,30 +1,19 @@
-
+}
 .clearfix {
 	overflow: normal;
 }
 body {
-	color: #2e64fe;
+  background-color: #cee3f6;
 }
 h1 {
-	margin: 0;
-	padding: 0 100 0 25;
-	font-weight: normal;
-	font-size: 12pt;
-	float: left;
-	font-family: 'Optima', 'Avant Garde';
-	font-style: #fffff;
+  background-color: #5882fa;
+  padding: 10px 10px 10px 20px;
+  font-style:
 }
-.nav h2 {
-	margin: 0;
-	padding: 0 100 0 25;
-	font-weight: normal;
-	font-size: 12pt;
-	float: left;
-	font-family: 'Optima', 'Avant Garde';
-	font-style: #fffff;
-}
-.nav form {
-	float: right;
-;
 
+ul {
+  float: right;
+}
+form {
+  float: right;
 }
