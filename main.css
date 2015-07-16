@@ -10,6 +10,11 @@ h1 {
   padding: 10px 10px 10px 50px;
   font-style:
 }
+div.links:hover {
+  font-color: white;
+  padding: 10px 10px 10px 50px;
+
+}
 h2 {
 	padding: 20px;
 }
