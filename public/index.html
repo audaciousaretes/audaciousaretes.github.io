@@ -9,7 +9,8 @@
         <link rel="stylesheet" type="text/css" href="facesmash.css">
     </head>
     <body>
-  <ul class="topnav clearifx">
+ <div class="header-cont">
+  <ul class="topnav clearfix">
         <li><h1><a href="#">facesmash</a></h1></li>
         <li>
             <ul>
@@ -18,33 +19,40 @@
             <li><a href="#"> Login</a> </li>
         </ul>
         </li>
+</ul>
+</div>
 
-        <form>
-        <h2>Sign Up<h2>
-  <h3>It's free and always will be</h3>
-  
-  <div>
-  <input type="text" name="First" placeholder="First name">
-  
-  <input type="text" name="Last" placeholder="Last name">
-  </div>
-  
- <div class="long">
-  <input type="text" name="Email" placeholder="Email">
-  </div>
-  
-  <div class="long">
-  <input type="text" name="Phone" placeholder="Phone Number"  
-  </div>       
+<div id="info">
+
     
-  <div>
+    <h2>Sign Up<h2>
+  <h3>It's free and always will be</h3>
+  <form>
+ <p>
+  <input type="text" name="First" placeholder="First name"/>
+  <input type="text" name="Last" placeholder="Last name"/>
+  </p>
+  
+ <p class="long">
+  <input type="text" name="Email" placeholder="Email">
+    </p>
+  
+  <p class="long">
+  <input type="text" name="Phone" placeholder="Phone Number">  
+  </p>       
+    
+  <p>
    <select aria-label="Pets" name="pets" placeholder="pets">
      <option value="0" selected= "1">pets</option>
      <option value="1">Dog</option>
      <option value="2">Cat</option>
      <option value="3">Fish</option>
      <option value="4">other</option>
-       
+    </p>
+    <p>
+    <input type="submit"/>   
+   </p> 
+  </div> 
         </form>
     </body>
 </html>
