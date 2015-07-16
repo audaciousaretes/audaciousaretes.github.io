@@ -2,15 +2,58 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Audacious Arets">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Untitled</title>
-        <link rel="author" href="humans.txt">
+        <title>Facesmash</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Audacious Aretes</h1>
-        <ul>
-            <li>Mychelle Blake</li>
-        </ul>
+ 
+            <ul class="navlist">
+                <li><h2>facesmash</h2>
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">sign up</a></li>
+                        <li><a href="#">login</a></li>
+                    </ul>
+                </li>
+            </ul>
+   
+            <div class="loginform">
+                <form method="post" action="mailto:mychelle.blake@gmail.com" name="Loginform">
+                    <p>Email or Phone&nbsp;&nbsp;<input type="text" name="LoginID"/></p>
+                    <p>Password&nbsp;&nbsp;<input type="password" name="Password"/></p>
+                    <p>Log In&nbsp;&nbsp;<input type="submit" value="Log In"/></p>
+                </form>
+            </div>
+ 
+        <div id="container">
+
+        <div id="main">
+            <p>this is the main area</p>
+        </div>
+
+        <div id="sidebar">
+            <h1>Sign Up</h1>
+            <p>It's free and always will be.</p>
+             <form method="post" action="mailto:mychelle.blake@gmail.com">
+                <p>First Name&nbsp;&nbsp;<input type="text" name="firstname"/>Last Name&nbsp;&nbsp;<input type="text" name="lastname"/></p>
+                <p>Email&nbsp;&nbsp;<input type="text" name="email"/></p>  
+                <p>Phone&nbsp;&nbsp;<input type="text" name="phone"/></p>     
+                <p>Pets&nbsp;&nbsp;
+                    <select name="pets">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="fish">Fish</option>
+                        <option value="other">Other</option>
+                    </select>  
+                <input type="hidden" name="placeholder" value="online"/>
+                <p><input type="submit" name="submit" value="subscribe"/></p>
+        
+       
+
+           
+
+        </form>
+        </div>
+    </div>
     </body>
 </html>

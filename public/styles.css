@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+
+.navlist {
+	position: fixed;
+	width: 100%;
+	margin: 0px;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #3b5998;
+	color: #fff;
+	height: 140px;
+	font-family: Lucida, Tahoma;
+	clear: left;
+}
+
+.loginform{
+	color: #fff;
+	font-family: Lucida, Tahoma;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+h2 {
+	font-weight: bolder;
+	color: #fff;
+	font-family: Tahoma, Lucida;
+}
+
+h1 {
+	font-weight: bolder;
+	color: #000;
+	font-family: Tahoma, Lucida;
+}
+
+p {
+	color: #000;
+	font-family: Tahoma, Lucida;
+	font-size: 10px;
+}
+
+li {
+	list-style-type: none;
+}
+
+
+.navlist li {
+	list-style: none;
+
+}
+
+.navlist > li:first-child {
+	float:left;
+
+}
+
+.navlist > li:last-child li {
+	float:left;
+	padding-left: 10px;
+}
+
+.navlist a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* CONTAINER */
+
+#container {
+	margin-top: 140px auto;
+	width: 100%;
+	background: -webkit-linear-gradient(top, #ffffff, #D3D8E8);
+}
+
+/* MAIN SECTION */
+
+#main {
+	width: 60%;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	padding: 1rem;
+	clear:left;
+}
+
+
+/* SIDEBAR */
+
+#sidebar {
+	width: 40%;
+	height: 500px;
+	background-color: #444;
+	font-family: Lucida, Tahoma;
+	display: block;
+	padding: 1rem;
+	line-height: 200%;
+	color: #fff;
+	float:right;
+}
