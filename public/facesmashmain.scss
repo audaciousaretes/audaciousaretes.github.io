@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+	font-size:24px;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+body {
+	background-color: #EDEDED;
+	padding: 0;
+	margin: 0;
+}
+
+.fixedheader {
+	background-color: #3B5998;
+	color: #888888;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	li {
+		list-style: none;
+	}
+
+	h1, a {
+		padding: 0;
+		margin: 0;
+		font-size: .8em;
+		font-weight: normal;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		display: block;
+		padding: .9rem .7rem;
+		color: #fff;
+		text-decoration: none;
+		font-weight: normal;
+		font-size: 1rem;
+		font-family: helvetica , arial;
+	}	
+
+	> li:first-child {
+		float: left;
+	}
+
+	> li:last-child {
+		float: right;
+	}
+
+	> li:last-child {
+		float: left; 
+	}
+}
+
+
+#main {
+	display: block;
+	float:left;
+	width: 60%;
+	padding: 5rem;
+	margin-top: 10px;
+	
+}
+
+#sideform {
+	float:right;
+	width: 40%;
+	font-size: 15px;
+
+}
+
+#sideform h2 {
+	font-size: 36px;
+	font-family: times;
+}
+
+#sideform p {
+	
+	font-size: 20px;
+}
+
+#sideform h3 {
+	font-size: 20px;
+	font-family: times;
+}
+
+#gender {
+	margin: .8rem;
+	font-size: 15px;
+	
+}
+
+#submission p, #submission a{
+	font-style: serif;
+	font-size: 10px;
+}
+
+input[type="submit"] {
+	background-color: #004c00;
+	padding: 2px;
+	color: #fff;
+	border-size: 10px;
+	border: none;
+}
+
