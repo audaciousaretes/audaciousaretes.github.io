@@ -81,7 +81,8 @@ li {
 /* CONTAINER */
 
 #container {
-	margin-top: 60px auto;
+	margin-top: 70px auto;
+	padding: 20px 5px 0 0;
 	width: 100%;
 	background: -webkit-linear-gradient(top, #ffffff, #D3D8E8);
 }
@@ -96,6 +97,7 @@ li {
 	float: left;
 	padding: 1rem;
 	clear:left;
+	background-image: url("/img/FBimage.png");
 }
 
 
@@ -111,4 +113,9 @@ li {
 	line-height: 200%;
 	color: #000;
 	float:right;
+}
+
+input[type="submit"] {
+	background: #78B319;
+	font-size: 14px;
 }
