@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Untitled</title>
         <link rel="author" href="humans.txt">
-        <link rel="stylesheet" type="text/css" href="facesmash.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
  <div class="header-cont">
@@ -28,27 +28,32 @@
     <h2>Sign Up<h2>
   <h3>It's free and always will be</h3>
   <form>
- <p>
+ <p class="col-12">
   <input type="text" name="First" placeholder="First name"/>
+
+<p class="col-6">
   <input type="text" name="Last" placeholder="Last name"/>
   </p>
   
- <p class="long">
+ <p class="col-6">
   <input type="text" name="Email" placeholder="Email">
     </p>
   
-  <p class="long">
+  <p class="col-6">
   <input type="text" name="Phone" placeholder="Phone Number">  
   </p>       
     
   <p>
-   <select aria-label="Pets" name="pets" placeholder="pets">
-     <option value="0" selected= "1">pets</option>
+   <label for="Pets"> Pets: </label> 
+   <select name="Pets">
+     <option value="0">None </option> 
      <option value="1">Dog</option>
      <option value="2">Cat</option>
      <option value="3">Fish</option>
-     <option value="4">other</option>
+     <option value="4">Other</option>
+     <option value="5">None</option>
     </p>
+    
     <p>
     <input type="submit"/>   
    </p> 
