@@ -1,22 +1,25 @@
- }
+
 .clearfix {
-	overflow: normal;
+  overflow: normal;
 }
 body {
   background-color: #cee3f6;
 }
 h1 {
   background-color: #5882fa;
-  padding: 10px 10px 10px 50px;
-  font-style:
+  padding: 10px 0px 10px 50px;
+  font-style: times;
+  width: 2000px;
+  height: 50px;
 }
-div.links:hover {
+links {
   font-color: white;
-  padding: 10px 10px 10px 50px;
+  float: right;
+  font-style: ariel;
 }
 
 h2 {
-	padding: 20px;
+  padding: 20px;
 }
 
 ul {
@@ -30,14 +33,23 @@ form {
   font-size: 18px;
 }
 
+first name {
+  padding: 10px 10px 10px 50px;
+}
+last name {
+  float: right;
+}
 input {
-	float: right;
-	clear: both;
+  float: right;
+  clear: both;
   marigin: 20px
-  padding: 10px 10px 10px 10px
+  padding: 10px 10px 10px 10px;
 }
 
 .submit button{
   float: right;
   padding: 20px;
+}
+pet option {
+  marigin: 10px 10px 10px 10px;
 }
