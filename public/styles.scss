@@ -1,4 +1,4 @@
-}
+ }
 .clearfix {
 	overflow: normal;
 }
@@ -13,8 +13,8 @@ h1 {
 div.links:hover {
   font-color: white;
   padding: 10px 10px 10px 50px;
-
 }
+
 h2 {
 	padding: 20px;
 }
@@ -22,17 +22,22 @@ h2 {
 ul {
   float: right;
 }
+
 form {
   float: right;
   padding: 0px 10px 0px 0px;
   font-family: Arial;
   font-size: 18px;
 }
+
 input {
-	float:center;
-	clear:both;
+	float: right;
+	clear: both;
+  marigin: 20px
+  padding: 10px 10px 10px 10px
 }
+
 .submit button{
-  float: center;
-  padding: ;
+  float: right;
+  padding: 20px;
 }
