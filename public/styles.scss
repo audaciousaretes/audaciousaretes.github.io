@@ -1,3 +1,5 @@
+$font-family: Lucida, Tahoma;
+
 * {
   box-sizing: border-box; }
 
@@ -10,32 +12,27 @@
   color: #fff;
   height: 60px;
   background-color: #3b5998;
-  font-family: Lucida, Tahoma;
+  font-family: $font-family;
   margin: 0px;
   top: 0;
   left: 0;
   right: 0; }
-
-.navlist > li:nth-child(2) {
-  float: right;
-  padding-left: 5px;
-  padding-right: 5px; }
-
-.navlist > li:nth-child(2) li {
-  float: left; }
-
-.navlist a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  margin: 0;
-  padding: 25px 5px; }
-
-.navlist li {
-  list-style: none; }
-
-.navlist li:first-child {
-  float: left; }
+    .navlist > li:nth-child(2) {
+      float: right;
+      padding-left: 5px;
+      padding-right: 35px; }
+    .navlist > li:nth-child(2) li {
+      float: left; }
+    .navlist a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      margin: 0;
+      padding: 25px 5px; }
+    .navlist li {
+      list-style: none; }
+    .navlist li:first-child {
+      float: left; }
 
 .clearfix {
   overflow: auto; }
@@ -43,16 +40,16 @@
 h1 {
   font-weight: bolder;
   color: #000;
-  font-family: Lucida, Tahoma; }
+  font-family: $font-family; }
 
 h2 {
   font-weight: bolder;
   color: #fff;
-  font-family: Lucida, Tahoma; }
+  font-family: $font-family; }
 
 p {
   color: #000;
-  font-family: Lucida, Tahoma;
+  font-family: $font-family;
   font-size: 14px; }
 
 li {
@@ -61,7 +58,7 @@ li {
 /* CONTAINER */
 #container {
   margin-top: 40px;
-  padding: 20px 5px 0 0;
+  padding: 20px 0px 0px 0px;
   width: 100%;
   background: -webkit-linear-gradient(top, #fff, #D3D8E8); }
 
@@ -77,59 +74,60 @@ li {
 
 /* SIDEBAR */
 #sidebar {
-  width: 40%;
+  width: 30%;
   height: 500px;
   background-color: #F2EDED;
-  font-family: Lucida, Tahoma;
+  font-family: $font-family;
   display: block;
-  padding: 1rem;
-  line-height: 200%;
+  padding: 2.9rem;
   color: #000;
-  float: right; }
+  float: left; }
 
 .form {
   display: inline-block;
   float: left;
   clear: left;
   width: 100%;
-  text-align: left; }
+  text-align: left;
+  line-height: 30px;
+}
 
 input[type="text"] {
   width: 100%;
   height: 20px;
-  border: 2px #000;
+  border: 1px solid #000;
   font-size: 14px;
-  color: #C0C0C0;
+  background-color: #fff;
 }
 
 input[type="submit"] {
   background: #78AB46;
   font-size: 14px;
-  border: 1px;
+  border: 1px solid #000;
   display: inline-block;
   float: left;
-  width: 30%; }
+  width: 40%; }
 
 /*MEDIA QUERIES */
 /* Apple Iphone 6 */
 @media (max-width: 375px) {
-  .form {
+  form {
     width: 100%;
     margin: 0px;
     padding: 0px; }
-  #main {
-    padding: 0px;
-    width: 0px; } }
+  main {
+    width: 0%;
+    height: 0px;} }
 /* Apple Ipad */
 @media (max-width: 1024px) and (orientation: landscape) {
-  .form {
+  form {
     width: 100%; } }
 @media (max-width: 768px) and (orientation: portrait) {
-  .form {
+  form {
     width: 100%; } }
 /* Desktop */
 @media (max-width: 1400px) {
-  .form {
-    padding: 0px; } }
+  form { 
+    width: 100%} }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.scss.map */
