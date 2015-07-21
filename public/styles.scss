@@ -1,4 +1,13 @@
- 
+@media screen and (max-width: 960px) {
+  dive-form}
+    width 100%;
+} 
+@media screen and (min-width: 320px) {
+  dive-form}
+    width 50%;
+}
+
+
 .clearfix {
   overflow: auto;
 }
