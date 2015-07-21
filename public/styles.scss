@@ -1,6 +1,6 @@
-
+ 
 .clearfix {
-  overflow: normal;
+  overflow: auto;
 }
 
 body {
@@ -49,10 +49,11 @@ input {
   padding: 10px 10px 10px 10px;
 }
 
-.submit button{
+submit button{
   float: right;
-  padding: 20px;
+  font-size: 40px;
 }
 pet option {
+  float: right;
   marigin: 10px 10px 10px 10px;
 }
