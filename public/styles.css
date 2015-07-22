@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box; }
+
+.clearfix {
+  overflow: auto; }
+
+.navlist {
+  position: fixed;
+  width: 100%;
+  color: #fff;
+  height: 60px;
+  background-color: #3b5998;
+  font-family: Lucida, Tahoma;
+  margin: 0px;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.navlist > li:nth-child(2) {
+  float: right;
+  padding-left: 5px;
+  padding-right: 35px; }
+
+.navlist > li:nth-child(2) li {
+  float: left; }
+
+.navlist a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 25px 5px; }
+
+.navlist li {
+  list-style: none; }
+
+.navlist li:first-child {
+  float: left; }
+
+.clearfix {
+  overflow: auto; }
+
+h1 {
+  font-weight: bolder;
+  color: #000;
+  font-family: Lucida, Tahoma; }
+
+h2 {
+  font-weight: bolder;
+  color: #fff;
+  font-family: Lucida, Tahoma; }
+
+p {
+  color: #000;
+  font-family: Lucida, Tahoma;
+  font-size: 14px; }
+
+li {
+  list-style-type: none; }
+
+/* CONTAINER */
+#container {
+  margin-top: 40px;
+  padding: 20px 0px 0px 0px;
+  width: 100%;
+  background: -webkit-linear-gradient(top, #fff, #D3D8E8); }
+
+/* MAIN SECTION */
+#main {
+  width: 60%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding: 1rem;
+  clear: left; }
+
+/* SIDEBAR */
+#sidebar {
+  width: 30%;
+  height: 500px;
+  background-color: #F2EDED;
+  font-family: Lucida, Tahoma;
+  display: block;
+  padding: 2.9rem;
+  color: #000;
+  float: left; }
+
+.form {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 100%;
+  text-align: left;
+  line-height: 30px; }
+
+input[type="text"] {
+  width: 100%;
+  height: 20px;
+  border: 1px solid #000;
+  font-size: 14px;
+  background-color: #fff; }
+
+input[type="submit"] {
+  background: #78AB46;
+  font-size: 14px;
+  border: 1px solid #000;
+  display: inline-block;
+  float: left;
+  width: 40%; }
+
+/*MEDIA QUERIES */
+/* Apple Iphone 6 */
+@media (max-width: 375px) {
+  form {
+    width: 100%;
+    margin: 0px;
+    padding: 0px; }
+
+  main {
+    width: 0%;
+    height: 0px; } }
+/* Apple Ipad */
+@media (max-width: 1024px) and (orientation: landscape) {
+  form {
+    width: 100%; } }
+@media (max-width: 768px) and (orientation: portrait) {
+  form {
+    width: 100%; } }
+/* Desktop */
+@media (max-width: 1400px) {
+  form {
+    width: 100%; } }
+/*# sourceMappingURL=styles.scss.map */
+
+/*# sourceMappingURL=styles.css.map */
