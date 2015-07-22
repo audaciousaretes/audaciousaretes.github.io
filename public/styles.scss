@@ -20,42 +20,26 @@ h1 {
   background-color: #5882fa;
   padding: 10px 0px 10px 50px;
   font-style: times;
-  width: 2000px;
+  width: 1000px;
   height: 50px;
 }
 
 links {
   font-color: white;
   float: right;
-  font-style: ariel;
+  font-family: Helvetica;
+  font-size: 12px;
 }
 
 h2 {
   padding: 20px;
 }
 
-ul {
-  float: right;
-}
-
-form {
+first name {
   float: right;
   padding: 0px 10px 0px 0px;
-  font-family: Arial;
+  font-family: Helvetica;
   font-size: 18px;
-}
-
-first name {
-  padding: 10px 10px 10px 50px;
-}
-last name {
-  float: right;
-}
-input {
-  float: right;
-  clear: both;
-  marigin: 20px
-  padding: 10px 10px 10px 10px;
 }
 
 submit button{
