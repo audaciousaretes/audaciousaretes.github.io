@@ -1,0 +1,72 @@
+.clearfix{
+	overflow:auto;
+}
+
+body{
+	color: white;
+	background: #214259;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	color: white;
+
+}
+
+.all{
+	background: #132634;
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 50%;
+  font-size: 25px;
+}
+
+input[type="submit"] {
+  font-size: 25px;
+  background: #15800a;
+}
+
+.list {
+  border: 5px solid green;
+  font-family: helvetica;
+}
+
+#your{
+  font-size: 30px;
+  list-style-type: none;
+  text-align: center;
+}
+
+li{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.list {
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 25px;
+  height: 60rem;
+}
+
+@media (max-width: 800px){
+	body {
+		width: 100%;
+	}
+}
+
+@media (min-width: 400px){
+	body {
+		width: 50%;
+	}
+}
+
