@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+#header {
+	font-family: tahoma, lucida, sans-serif;
+	color: #5F12C4;
+	border: 2px solid #000;
+	text-align: center;
+}
+
+#entry {
+	font-family: tahoma, lucida, sans-serif;
+	background-color: #63099E;
+	color: #fff;
+	border: 2px solid #000;
+	text-align: left;	
+	padding-left: 3%;
+}
+
+#listbody {
+	font-family: tahoma, lucida, sans-serif;
+	color: 5F12C4;
+	padding-left: 3%;
+	border: 2px solid #000;
+	line-height: 2em;
+}
+
+.wrapper {
+	background-image: url("img/ricepaper_v3.png");
+	background-repeat: repeat;
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
+	width: 800px;
+}
+
+/* Media Queries */
+
+@media (max-device-width: 800px) {
+	.wrapper {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+}
+  
