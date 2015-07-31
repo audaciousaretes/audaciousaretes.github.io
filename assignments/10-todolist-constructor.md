@@ -10,13 +10,11 @@ We need to do two things:
     - get todo list length
     - show todos
 - Create a todo constructor
-    - private description
-    - get description method
-    - set description method
+    - public description
     - private status
     - get status method
-    - set complete method
-    - set deferred method
+    - set status to "complete" method
+    - set status to "deferred" method
 
 Deliverable:
 
